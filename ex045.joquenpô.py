@@ -5,7 +5,7 @@ pc = str(input('Escolha entre Pedra Papel e Tesoura: \n').upper())
 lista = ["PEDRA", "PAPEL", "TESOURA"]
 
 cc = random.choice(lista)
-
+print(f'O computador escolheu {cc}\n')
 if (pc == cc):
     print(f'Empate! ambos escolheram {cc}')
 elif (pc == "PEDRA" and cc == "TESOURA"):
